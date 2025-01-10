@@ -1,0 +1,45 @@
+.MMM-FroniusSolar2 {
+  /*  width: 200px; /* Force the module's width */
+  /*  text-align: right; /* Center-align the module */
+/*    margin: 0 auto; /* Center horizontally within its region */
+}
+
+.MMM-FroniusSolar2 .solar2-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px;
+}
+
+.MMM-FroniusSolar2 .solar2-wrapper svg {
+    display: block;
+    margin: auto;
+}
+
+.MMM-FroniusSolar2 .flow-lines {
+    stroke-dasharray: 4,4; /* Dashed pattern */
+    stroke-dashoffset: 0; /* Initial offset */
+    animation: MMM-FroniusSolar2-flow 2s linear infinite; /* Scoped animation */
+}
+
+@keyframes MMM-FroniusSolar2-flow {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -8;
+    }
+}
+
+
+.MMM-FroniusSolar2 .text-message2 {
+    margin-top: 0px;
+    text-align: center;
+    max-width: 300px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
