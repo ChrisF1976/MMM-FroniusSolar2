@@ -51,7 +51,7 @@ Add the module to the `config.js` file:
             P_Load: "mdi:home-lightbulb",
             P_PV: "mdi:solar-panel-large"
         },
-        Radius: 80, // Radius for the SVG gauge
+        Radius: 50, // Radius for the SVG gauge
         MaxPower: 4000, // Maximum power for Grid scaling
         MaxPowerPV: 10400, // Maximum power for PV scaling
         ShowText: true,
