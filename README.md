@@ -134,7 +134,7 @@ All three modules, [MMM-FroniusSolar](https://github.com/ChrisF1976/MMM-FroniusS
 - **Dynamic SVG Gauges**: All modules include gauges to represent power flow visually.
 - **Text Messages**: Each module uses conditional text messages based on `P_Grid` values.
 
-![All](./All.png)
+![All](./z_All.png)
 
 ## Recommended Use Cases
 
