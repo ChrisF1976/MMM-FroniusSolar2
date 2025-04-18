@@ -1,0 +1,25 @@
+{
+  "name": "MMM-FroniusSolar2",
+  "version": "1.0.0",
+  "description": "Ein MagicMirror² Modul zur Visualisierung von Fronius-Solardaten mit stilisierten SVG-Gauges.",
+  "main": "MMM-FroniusSolar2.js",
+  "scripts": {
+    "start": "echo 'Dieses Modul ist für den Einsatz im MagicMirror vorgesehen und wird dort automatisch geladen.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisF1976/MMM-FroniusSolar2.git"
+  },
+  "keywords": [
+    "solar",
+    "fronius",
+    "photovoltaik",
+    "energy",
+  ],
+  "author": "ChrisF1976",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisF1976/MMM-FroniusSolar2/issues"
+  },
+  "homepage": "https://github.com/ChrisF1976/MMM-FroniusSolar2#readme"
+}
